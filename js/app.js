@@ -8,7 +8,7 @@ let button_max = document.querySelector("#button_max")
 let contenido_principal = document.querySelector("#contenido_principal")
 
 enviar.addEventListener("click",cambiarColor);
-
+color.addEventListener("change",cambiarColor);
 button_min.addEventListener("click",restarPixeles);
 button_max.addEventListener("click",sumarPixeles);
 

@@ -5,7 +5,7 @@
 body{
     width: 100vw;
     height: 900px;
-    background-color: #0D95D9;
+    background-color: #6794FA;
     display: flex;
     flex-direction: column;
     
@@ -26,14 +26,14 @@ body{
 
 .header .div_color .input_color{
     margin-right: 20px;
-    width: 40%;
+    width: 20%;
     height: 40px;
 }
 
 
 .header .div_color .button_color{
-    border-radius: 100%;
-    width: 100px;
+    border-radius: 47%;
+    width: 88px;
     height: 45px;
 }
 .header .div_pixeles .button{
@@ -57,7 +57,7 @@ body{
 .container .contenido_principal{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     height: 100%;
     background-color: #fff;
 }
@@ -92,6 +92,8 @@ body{
     justify-content: center;
     background-color: #0D95D9;
     align-self: center;
+    color: black;
+    text-decoration: none;
 }
 .container .contenido_principal .contenido .folder{
     align-self: flex-end;
